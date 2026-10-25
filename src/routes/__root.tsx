@@ -74,19 +74,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   head: () => ({
     meta: [
       { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1" },
-      { title: "Table Talker — Panggilan Meja Restoran" },
+      { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
+      { title: "Table Talker — Pindah ke Website Baru" },
       {
         name: "description",
-        content:
-          "Soundboard panggilan meja untuk restoran. Tap nomor meja, suara panggilan otomatis diputar.",
+        content: "Website lama Table Talker sudah tidak dapat digunakan. Kunjungi website baru kami.",
       },
-      { name: "theme-color", content: "#f5f2e8" },
-      { property: "og:title", content: "Table Talker — Panggilan Meja Restoran" },
+      { name: "theme-color", content: "#070810" },
+      { property: "og:title", content: "Table Talker — Pindah ke Website Baru" },
       {
         property: "og:description",
-        content:
-          "Soundboard panggilan meja untuk restoran. Tap nomor meja, suara panggilan otomatis diputar.",
+        content: "Website lama sudah tidak dapat digunakan. Kunjungi website baru kami.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
